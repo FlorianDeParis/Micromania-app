@@ -1,0 +1,83 @@
+[
+    {
+        "idShop": "0001",
+        "Name": "Micromania Avenue Niel",
+        "lat": "48.879226",
+        "long": "2.294218",
+        "Desc": "Description fiche magasin Avenue Niel",
+        "Adresse": "1 Avenue Niel 75008 Paris",
+        "Telephone": "01 58 05 06 40"
+    },{
+        "idShop": "0002",
+        "Name": "Micromania Rue de Caumartin",
+        "lat": "48.875376",
+        "long": "2.328623",
+        "Desc": "Description fiche magasin Rue de Caumartin",
+        "Adresse": "64 Rue de Caumartin 75009 Paris",
+        "Telephone": "01 45 96 35 36"
+    },{
+        "idShop": "0003",
+        "Name": "Micromania Victor Hugo",
+        "lat": "48.867405",
+        "long": "2.280301",
+        "Desc": "Description fiche magasin Victor Hugo",
+        "Adresse": "137 Avenue Victor Hugo 75116 Paris",
+        "Telephone": "01 47 27 13 10"
+    },{
+        "idShop": "0004",
+        "Name": "Micromania Pierre Lescot",
+        "lat": "48.862101",
+        "long": "2.347396",
+        "Desc": "Description fiche magasin Pierre Lescot",
+        "Adresse": "2 Rue Pierre Lescot 75001 Paris",
+        "Telephone": "01 42 36 25 42"
+    },{
+        "idShop": "0005",
+        "Name": "Micromania Saint Antoine",
+        "lat": "48.853669",
+        "long": "2.370910",
+        "Desc": "Description fiche magasin Saint Antoine",
+        "Adresse": "3bis Rue du Faubourg Saint-Antoine 75011 Paris",
+        "Telephone": "01 43 41 62 61"
+    },{
+        "idShop": "0006",
+        "Name": "Micromania Linois",
+        "lat": "48.847580",
+        "long": "2.284452",
+        "Desc": "Description fiche magasin Linois",
+        "Adresse": "48 Rue Linois 75015 Paris",
+        "Telephone": "01 45 77 52 05"
+    },{
+        "idShop": "0007",
+        "Name": "Micromania Rue de Rennes",
+        "lat": "48.846902",
+        "long": "2.326190",
+        "Desc": "Description fiche magasin Rue de Rennes",
+        "Adresse": "126 Rue de Rennes 75006 Paris",
+        "Telephone": "01 45 49 07 07"
+    },{
+        "idShop": "0008",
+        "Name": "Micromania Vaugirard",
+        "lat": "48.836915",
+        "long": "2.295009",
+        "Desc": "Description fiche magasin Vaugirard",
+        "Adresse": "365 Rue de Vaugirard 75015 Paris",
+        "Telephone": "01 53 68 86 88"
+    },{
+        "idShop": "0009",
+        "Name": "Micromania General Leclerc",
+        "lat": "48.832559",
+        "long": "2.330041",
+        "Desc": "Description fiche magasin General Leclerc",
+        "Adresse": "24 Avenue du Général Leclerc 75014 Paris",
+        "Telephone": "01 45 43 31 84"
+    },{
+        "idShop": "0010",
+        "Name": "Micromania Avenue d'Italie",
+        "lat": "48.828909",
+        "long": "2.355146",
+        "Desc": "Description fiche magasin Avenue d'Italie",
+        "Adresse": "30 Avenue d'Italie 75013 Paris",
+        "Telephone": "01 45 89 70 43"
+    }
+]

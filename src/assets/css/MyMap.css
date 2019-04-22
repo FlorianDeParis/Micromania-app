@@ -1,0 +1,184 @@
+/*MyMap*/
+.MyMap-App {
+  text-align: center;
+  position: relative;
+}
+
+.NavBar{
+  position:absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ebe7e6;
+  background: #184296; /* Old browsers */
+  background: url(../img/Bg.png), -moz-linear-gradient(left, #184296 0%, #184296 50%, #55ae1e 50%, #55ae1e 100%); /* FF3.6-15 */
+  background: url(../img/Bg.png), -webkit-linear-gradient(left, #184296 0%,#184296 50%,#55ae1e 50%,#55ae1e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url(../img/Bg.png), linear-gradient(to right, #184296 0%,#184296 50%,#55ae1e 50%,#55ae1e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184296', endColorstr='#55ae1e',GradientType=1 ); /* IE6-9 */
+  /*background-image:url(../img/Bg.png);*/
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 60px;
+  line-height:60px;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid #606060;
+  box-sizing: border-box;
+}
+
+.Navlogo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: auto;
+}
+
+.MyMap-App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.MyMap-App-header {
+  display: none;
+  /*background-color: #282c34;*/
+  background-image:url(../img/mainbkg.png); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* just for testing purposes... */
+.FormMyMap{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*height: 60px;*/
+  margin-top:10px; 
+  padding-right: 15px;
+}
+
+/* just for testing purposes... */
+.FormMyMap input[type="text"]{
+  height: 30px;
+  background:none;
+  color: #3d3d3d;
+  font-family: 'Fjalla One', sans-serif;
+  border: 1px solid #3d3d3d;
+  border-radius: 8px;
+  padding: 0 0 0 10px;
+  vertical-align: middle;
+}
+
+/* just for testing purposes... */
+.FormMyMap input[type="submit"]{
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  background-image: url(../img/start.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+  margin-left:5px;
+  cursor: pointer;
+}
+
+/* just for testing purposes... */
+.FormMyMap input[type="text"]:focus,
+.FormMyMap input[type="text"]:active,
+.FormMyMap input[type="submit"]:focus,
+.FormMyMap input[type="submit"]:active{
+  outline: none;
+}
+
+.MyMap-App-link {
+  color: #61dafb;
+}
+
+.MyMap-gmap-wrapper{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+ul.liste-shops{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+ul.liste-shops li.shopEntry{
+  cursor: pointer;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background:#ebe7e6;
+  color: #3d3d3d;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+  height: 40px;
+  width: 250px;
+  text-align: left;
+  border-top:1px solid #3d3d3d;
+  border-right:1px solid #3d3d3d;
+}
+
+ul.liste-shops li.shopEntry:last-child{
+  border-bottom:1px solid #3d3d3d;
+}
+
+ul.liste-shops li.shopEntry[data-selected="true"]{
+  background: #b9b9b9;
+  -moz-box-shadow: inset 0px 0px 5px 5px #9e9c9c;
+  -webkit-box-shadow: inset 0px 0px 5px 5px #9e9c9c;
+  -o-box-shadow: inset 0px 0px 5px 5px #9e9c9c;
+  box-shadow: inset 0px 0px 5px 5px #9e9c9c;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#9e9c9c, Direction=NaN, Strength=5);
+}
+
+ul.liste-shops li.shopEntry span{
+  display: block;
+  font-size: 10px;
+  color: #3d3d3d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.getAllShops{
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  border-radius: 30px;
+  background: #184296;
+  color: #fff; 
+  font-family: 'Roboto', sans-serif;
+  outline: none!important;
+  position: fixed;
+  top: 70px;
+  right: 10px;
+  height: 50px;
+  padding: 5px 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,44 @@
+/*404*/
+.Error-App {
+  text-align: center;
+}
+
+.Error-App-logo {
+  animation: Error-App-logo-spin infinite 3s linear;
+  height: 40vmin;
+}
+
+.Error-App-header {
+  /*background-color: #282c34;*/
+  background-image:url(../img/mainbkg.png); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.Error-App-link {
+  color: #61dafb;
+}
+
+.error-code{
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  font-size:1.5vmin;
+  font-style:italic;
+}
+
+@keyframes Error-App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }  
+  100% {
+    transform: rotate(0deg);
+  }
+}
